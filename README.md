@@ -1,5 +1,5 @@
 # ST-GDance: Long-Term and Collision-Free Group Choreography from Music
-Jing Xu, Weiqiang Wang, Cunjian Chen, Jun Liu, Qiuhong Ke
+<h3>Jing Xu, Weiqiang Wang, Cunjian Chen, Jun Liu, Qiuhong Ke</h3>
 
 Official implementation of ST-GDance
 📢 Accepted at **BMVC 2025 (Oral)**
