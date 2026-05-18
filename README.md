@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## 2. Data
 
-We use the **[GDANCE](https://github.com/aioz-ai/AIOZ-GDANCE)** dataset to train and evaluate our models. Please **[download](https://huggingface.co/datasets/aiozai/AIOZ-GDANCE)** and extract the data into `./datasets/`. If you extract it to a different location, you will need to update the data path in the configuration accordingly.
+We use the **[GDANCE](https://github.com/aioz-ai/AIOZ-GDANCE)** dataset to train and evaluate our models. Please **[download](https://huggingface.co/datasets/aiozai/AIOZ-GDANCE)** and extract the data into `./data/gdance/`. If you extract it to a different location, you will need to update the data path in the configuration accordingly.
 
 Our model takes music features as input to generate corresponding dance motions. We provide pre-extracted **[Jukebox features](https://huggingface.co/aiozai/JukeBoxFeatures/resolve/main/jukebox_features.zip)** derived from the GDANCE music sequences for your convenience.
 
