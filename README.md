@@ -1,8 +1,9 @@
 # ST-GDance
-
 Official implementation of  
 **"ST-GDance: Long-Term and Collision-Free Group Choreography from Music"**  
 📢 Accepted at **BMVC 2025 (Oral)**
+
+[[arXiv](https://arxiv.org/abs/2507.21518)] [[Project Page](https://yilliajing.github.io/ST-GDance-Website/)]
 
 ## 1. Environment Setup
 
@@ -20,3 +21,18 @@ pip install -r requirements.txt
 We use the **[GDANCE](https://github.com/aioz-ai/AIOZ-GDANCE)** dataset to train and evaluate our models. Please **[download](https://huggingface.co/datasets/aiozai/AIOZ-GDANCE)** and extract the data into `./datasets/`. If you extract it to a different location, you will need to update the data path in the configuration accordingly.
 
 Our model takes music features as input to generate corresponding dance motions. We provide pre-extracted **[Jukebox features](https://huggingface.co/aiozai/JukeBoxFeatures/resolve/main/jukebox_features.zip)** derived from the GDANCE music sequences for your convenience.
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@inproceedings{Xu_2025_BMVC,
+  author    = {Jing Xu and Weiqiang Wang and Cunjian Chen and Jun Liu and Qiuhong Ke},
+  title     = {ST-GDance: Long-Term and Collision-Free Group Choreography from Music},
+  booktitle = {36th British Machine Vision Conference 2025, {BMVC} 2025, Sheffield, UK, November 24-27, 2025},
+  publisher = {BMVA},
+  year      = {2025},
+  url       = {https://bmva-archive.org.uk/bmvc/2025/assets/papers/Paper_66/paper.pdf}
+}
+```
